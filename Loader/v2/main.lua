@@ -127,7 +127,8 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 		Position = UDim2.new(0.093952976167202, 0, 0.09986995160579681, 0),
 		Size = UDim2.new(0, 35, 0, 35),
 		ZIndex = 2,
-		Image = "rbxassetid://3926305904",
+		Image = "https://cdn.discordapp.com/attachments/1079101963993612359/1083424010156638339/xloader.png",
+		--Image = "rbxassetid://3926305904",
 		ImageRectOffset = Vector2.new(324, 764),
 		ImageRectSize = Vector2.new(36, 36),
 	})
