@@ -387,7 +387,7 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 		Position = UDim2.new(0, 0, -0.09302325546741486, 0),
 		Size = UDim2.new(0, 263, 0, 50),
 		Font = Enum.Font.Gotham,
-		Text = "Loader Bezárása",
+		Text = "Bezárás",
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextSize = 11,
 	})
