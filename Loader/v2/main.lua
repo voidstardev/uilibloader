@@ -288,7 +288,7 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 		Position = UDim2.new(0, 0, -0.09302325546741486, 0),
 		Size = UDim2.new(0, 263, 0, 50),
 		Font = Enum.Font.Gotham,
-		Text = "LOAD",
+		Text = "Aktiválás",
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextSize = 11,
 	})
@@ -331,7 +331,7 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 		AutoButtonColor = false,
 		Font = Enum.Font.Gotham,
 		RichText = true,
-		Text = "Last Updated <b>5 seconds ago</b>",
+		Text = "Készítette <b>starvoid_dev</b>",
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextSize = 11,
 		TextXAlignment = Enum.TextXAlignment.Left,
@@ -387,7 +387,7 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 		Position = UDim2.new(0, 0, -0.09302325546741486, 0),
 		Size = UDim2.new(0, 263, 0, 50),
 		Font = Enum.Font.Gotham,
-		Text = "EXIT",
+		Text = "Loader Bezárása",
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextSize = 11,
 	})
@@ -412,7 +412,7 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 		Size = UDim2.new(0, 198, 0, 24),
 		Font = Enum.Font.Gotham,
 		RichText = true,
-		Text = "Select a game",
+		Text = "Válaszd ki a játékot.",
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextSize = 14,
 		TextXAlignment = Enum.TextXAlignment.Left,
@@ -435,7 +435,7 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 			Size = UDim2.new(1, 0, -0.017391303554177284, 50),
 			AutoButtonColor = false,
 			Font = Enum.Font.Gotham,
-			Text = L_74_arg0.Name or "New Selection",
+			Text = L_74_arg0.Name or "Új Kiválasztás",
 			TextColor3 = Color3.fromRGB(255, 255, 255),
 			TextSize = 14,
 			TextXAlignment = Enum.TextXAlignment.Left,
@@ -537,10 +537,10 @@ function L_1_:CreateWindow(L_26_arg0, L_27_arg1)
 			L_80_.Enabled = true
 			L_84_.Enabled = true
 			L_28_.Selection = L_74_arg0.Flag
-			L_59_.Text = "Currently <b>" .. L_74_arg0.Status .. "</b>"
+			L_59_.Text = "Jelenleg <b>" .. L_74_arg0.Status .. "</b>"
 			L_52_.Text = (L_74_arg0.Name or 'Game')
 			L_47_.Image = (L_74_arg0.Image or '')
-			L_63_.Text = "Last Updated <b>" .. (L_3_func(os.time() - L_74_arg0.UpdateDate) or 'Never') .. "</b>"
+			L_63_.Text = "Készítette <b>starvoid_dev</b>"
 		end
 		if L_28_.Created == 1 then
 			L_85_func()
